@@ -20,7 +20,7 @@
 /**
  * 
  */
-class VREXPPLUGINEXAMPLE_API EmptyClassForProject
+class BALLOONWARS_API EmptyClassForProject
 {
 public:
 	EmptyClassForProject();

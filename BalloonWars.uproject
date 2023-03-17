@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "VRExpPluginExample",
+			"Name": "BalloonWars",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

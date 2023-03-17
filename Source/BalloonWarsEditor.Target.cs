@@ -3,15 +3,15 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class VRExpPluginExampleEditorTarget : TargetRules
+public class BalloonWarsEditorTarget : TargetRules
 {
-	public VRExpPluginExampleEditorTarget(TargetInfo Target) : base(Target)
+	public BalloonWarsEditorTarget(TargetInfo Target) : base(Target)
 	{
         DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 
         Type = TargetType.Editor;
-        ExtraModuleNames.AddRange(new string[] { "VRExpPluginExample" });
+        ExtraModuleNames.AddRange(new string[] { "BalloonWars" });
 		//bUseUnityBuild = false;
 		//bUsePCHFiles = false;
     }
@@ -26,6 +26,6 @@ public class VRExpPluginExampleEditorTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "VRExpPluginExample" } );
+		OutExtraModuleNames.AddRange( new string[] { "BalloonWars" } );
 	}*/
 }

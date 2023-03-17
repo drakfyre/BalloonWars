@@ -3,9 +3,9 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class VRExpPluginExampleTarget : TargetRules
+public class BalloonWarsTarget : TargetRules
 {
-	public VRExpPluginExampleTarget(TargetInfo Target) : base(Target)
+	public BalloonWarsTarget(TargetInfo Target) : base(Target)
 	{
 
         DefaultBuildSettings = BuildSettingsVersion.V2;
@@ -13,7 +13,7 @@ public class VRExpPluginExampleTarget : TargetRules
 
         //bUseLoggingInShipping = true;
         Type = TargetType.Game;
-        ExtraModuleNames.AddRange(new string[] { "VRExpPluginExample" });
+        ExtraModuleNames.AddRange(new string[] { "BalloonWars" });
         //bUsePCHFiles = false;
         //bUseUnityBuild = false;
 
@@ -56,6 +56,6 @@ public class VRExpPluginExampleTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "VRExpPluginExample" } );
+		OutExtraModuleNames.AddRange( new string[] { "BalloonWars" } );
 	}*/
 }

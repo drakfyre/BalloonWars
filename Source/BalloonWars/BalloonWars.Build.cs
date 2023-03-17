@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class VRExpPluginExample : ModuleRules
+public class BalloonWars : ModuleRules
 {
-	public VRExpPluginExample(ReadOnlyTargetRules Target) : base(Target)
+	public BalloonWars(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
        // PrivatePCHHeaderFile = "Private/WindowsMixedRealityPrecompiled.h";
